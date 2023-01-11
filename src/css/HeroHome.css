@@ -1,0 +1,48 @@
+/* --- HERO HOME---*/
+.hero-home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    gap: 1em;
+    background-color: rgb(47, 73, 47);
+}
+
+.hero-home-container1-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-home-image {
+    width: 85%;
+    border-radius: 15px;
+}
+
+.hero-home-h1 {
+    font-family: Verdana;
+    font-size: 32pt;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(252, 243, 60);
+}
+
+.hero-home-h2 {
+    font-family: Verdana;
+    font-size: 24pt;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-home-p {
+    font-family: Verdana;
+    font-size: 14pt;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: white;
+}

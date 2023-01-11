@@ -1,0 +1,31 @@
+/* --- SPECIALS 1 ---*/
+.specials1-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* --- SPECIALS 2 ---*/
+.specials2-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    gap: 3em;
+    background-color: rgb(225, 225, 225);
+}
+
+.specials2-container1 {
+    background-color: white;
+    padding: 5%;
+    border-radius: 16px;
+}
+
+.specials2-image {
+    width: 100%;
+}
