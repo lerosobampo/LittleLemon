@@ -1,0 +1,16 @@
+/* --- HERO ABOUT---*/
+.hero-construction-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: rgb(47, 73, 47);
+}
+
+.hero-construction-h1 {
+    font-family: Verdana;
+    font-size: 32pt;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgb(252, 243, 60);
+}

@@ -1,0 +1,8 @@
+.construction-container {
+    height: 300px;
+}
+
+.h1-construction {
+    display: flex;
+    justify-content: center;
+}

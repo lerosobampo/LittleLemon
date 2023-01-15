@@ -46,3 +46,8 @@
     margin-bottom: 30px;
     color: white;
 }
+
+.navLink-home {
+    text-decoration: none;
+    color: white;
+}

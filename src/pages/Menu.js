@@ -5,7 +5,7 @@ import HeroConstruction from '../components/HeroConstruction';
 import Construction from '../components/Construction';
 import Footer from '../components/Footer';
 
-export default function About() {
+export default function Menu() {
     return (
 
         <Fragment>

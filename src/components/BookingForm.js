@@ -4,7 +4,8 @@ import { useForm } from 'react-hook-form';
 export default function BookingForm () {
 
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
-  const onSubmit = data => console.log(data);
+  const onSubmit = data => { alert("Reservation Complete"), console.log(data); }
+
 
   return (
     <section className='bf-container'>

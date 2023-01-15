@@ -47,3 +47,8 @@ header nav ul {
 header nav a {
   text-decoration: none;
 }
+
+.navLink {
+  text-decoration: none;
+  color: black;
+}
