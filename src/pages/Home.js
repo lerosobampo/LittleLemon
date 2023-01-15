@@ -1,3 +1,4 @@
+import React, {Fragment} from 'react';
 import '../css/Home.css';
 //COMPONENTS
 import HeroHome from '../components/HeroHome';
@@ -8,12 +9,15 @@ import Footer from '../components/Footer';
 
 export default function Home() {
     return (
-        <div>
+
+        <Fragment>
+
             <HeroHome />
             <Specials />
             <Testimonials />
             <Information />
             <Footer />
-        </div>
+
+        </Fragment>
     )
 }

@@ -1,6 +1,6 @@
 import '../css/Information.css'
 //IMAGES
-import info from '../images/restaurantChef.jpg';
+import info from '../assets/restaurantChef.jpg';
 
 export default function Information() {
     return (

@@ -1,6 +1,6 @@
 import '../css/Specials.css'
 // IMAGES
-import dish from '../images/greekSalad.jpg';
+import dish from '../assets/greekSalad.jpg';
 
 export default function Specials() {
     return (

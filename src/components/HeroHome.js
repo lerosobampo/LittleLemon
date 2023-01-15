@@ -1,6 +1,6 @@
 import '../css/HeroHome.css'
 //IMAGES
-import hero from '../images/restaurant.jpg';
+import hero from '../assets/restaurant.jpg';
 
 export default function HomeHero() {
     return (

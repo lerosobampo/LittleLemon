@@ -1,6 +1,7 @@
+import React, { Fragment } from 'react';
 import '../css/Footer.css';
 //IMAGES
-import logo from '../images/Logo.svg';
+import logo from '../assets/Logo.svg';
 
 export default function Footer() {
     return (

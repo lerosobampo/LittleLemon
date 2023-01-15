@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Reservations from './pages/Reservations';
 // IMAGES
-import logo from './images/Logo.svg';
+import logo from './assets/Logo.svg';
 
 function App() {
   return (
