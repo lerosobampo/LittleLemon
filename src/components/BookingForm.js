@@ -7,7 +7,7 @@ import swal from 'sweetalert';
 export default function BookingForm () {
 
   const { register, handleSubmit, reset, formState, formState: { errors, isSubmitSuccessful } } = useForm();
-  const onSubmit = data => { console.log(data); }
+  const formData = (data) => { console.log(data); }
 
   //SWEET ALERT SUCCESS
   const popAlert = () => {
@@ -36,7 +36,7 @@ export default function BookingForm () {
 
       <h1>Reservation details</h1>
 
-      <form className='form-container' onSubmit={ handleSubmit(onSubmit) }>
+      <form className='form-container' onSubmit={ handleSubmit(formData) }>
 
         <label>First Name</label>
         <input className='input-form' name='firstName' placeholder='First Name' { ...register("firstName", { required: true }) }/>
