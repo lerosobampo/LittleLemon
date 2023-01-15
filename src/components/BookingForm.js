@@ -1,11 +1,35 @@
+import React from 'react';
 import '../css/BookingForm.css';
 import { useForm } from 'react-hook-form';
+//SWEET ALERT
+import swal from 'sweetalert';
 
 export default function BookingForm () {
 
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
-  const onSubmit = data => { alert("Reservation Complete"), console.log(data); }
+  const { register, handleSubmit, reset, formState, formState: { errors, isSubmitSuccessful } } = useForm();
+  const onSubmit = data => { console.log(data); }
 
+  //SWEET ALERT SUCCESS
+  const popAlert = () => {
+    swal ({
+      title: "Success",
+      text: "Reservation completed",
+      icon: "success"
+    })
+  }
+
+  React.useEffect(() => {
+    if (formState.isSubmitSuccessful) {
+      popAlert(),
+      reset({
+        firstName: "",
+        lastName: "",
+        chooseDate: "",
+        occasion: "",
+        guests: "",
+      });
+    }
+  }, [formState, reset])
 
   return (
     <section className='bf-container'>
@@ -41,7 +65,7 @@ export default function BookingForm () {
           <option>Anniversary</option>
         </select>
 
-        <input className='form-button' type="submit" value="Make Your Reservation" />
+        <input className='form-button' type="submit" value="Make Your Reservation"  />
 
       </form>
 

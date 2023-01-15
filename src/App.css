@@ -24,6 +24,12 @@ button {
   font-size: 11pt;
   color: white;
 }
+
+button :hover {
+  color: rgb(2, 48, 250);
+}
+
+
 /*---- HEADER -----*/
 
 header {
@@ -44,6 +50,14 @@ header nav ul {
   gap: 5em;
 }
 
+header nav li :hover {
+  color: rgb(0, 151, 58);
+}
+
+header nav li .active {
+  color: rgb(0, 151, 58);
+}
+
 header nav a {
   text-decoration: none;
 }
@@ -52,3 +66,4 @@ header nav a {
   text-decoration: none;
   color: black;
 }
+
